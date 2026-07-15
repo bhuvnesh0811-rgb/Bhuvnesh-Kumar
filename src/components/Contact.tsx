@@ -68,8 +68,8 @@ export function Contact() {
               </div>
 
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                <select className="w-full bg-dark border border-dark-border rounded-lg px-4 py-3 focus:outline-none focus:border-primary transition-colors text-white appearance-none">
-                  <option value="" disabled selected>Service Interested In</option>
+                <select defaultValue="" className="w-full bg-dark border border-dark-border rounded-lg px-4 py-3 focus:outline-none focus:border-primary transition-colors text-white appearance-none">
+                  <option value="" disabled>Service Interested In</option>
                   <option value="live">Live Broadcasting</option>
                   <option value="video">Videography</option>
                   <option value="photo">Photography</option>
